@@ -8,18 +8,18 @@ function addCssToStyleTag() {
     "position: fixed;" +
     "bottom: 20px;" +
     "left: 10px;" +
-    "right: 10px" +
-    "padding: 3px" +
-    "font-size: 16px" +
-    "background-color: rgba(87, 12, 12, 0.8)" +
-    "color: white" +
-    "z-index: 999999999" +
-    "text-align: center" +
-    "}" +
+    "right: 10px;" +
+    "padding: 3px;" +
+    "font-size: 16px;" +
+    "background-color: rgba(87, 12, 12, 0.8);" +
+    "color: white;" +
+    "z-index: 999999999;" +
+    "text-align: center;" +
+    "};" +
     // + on Hover styling
     "[data-smc-hover='true']{" +
     "border: 1px solid red;" +
-    "}"
+    "};"
     // & append to Head elementTag
     document.head.appendChild(styleTag)
 }
