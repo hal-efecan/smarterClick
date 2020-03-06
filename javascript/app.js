@@ -15,7 +15,7 @@ function addCssToStyleTag() {
     "color: white;" +
     "z-index: 999999999;" +
     "text-align: center;" +
-    "};" +
+    "}" +
     // + on Hover styling
     "[data-smc-hover='true']{" +
     "border: 1px solid red;" +
