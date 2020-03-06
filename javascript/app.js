@@ -2,7 +2,7 @@ function addCssToStyleTag() {
     // Create style elementTag
     const styleTag = document.createElement('style')
     // + set attr 
-    styleTag.setAttribute('elementId', 'smc-hover-css')
+    styleTag.setAttribute('id', 'smc-hover-css')
     // + css Styling
     styleTag.innerHTML = "smc-path-box {" +
     "position: fixed;" +
