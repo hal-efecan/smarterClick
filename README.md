@@ -7,7 +7,11 @@ To demonstrate DOM manipulation and traversal using **vanilla JavaScript**
 **Part 3** - Getting the elements path  
 **Part 4** - Putting it all together  
 
-Running your script will now mean any element that you hover over will have a red outline, and clicking on it will show it's selected path at the bottom of the page.
+Running your script will mean any element that you hover over will have a red outline, and clicking on it will show it's selected path at the bottom of the page.
+
+## comments:  
+Tried to write script using functional programming by breaking up functions into smaller  
+more succinct units.
 
 ### **Resources used**:  
 
