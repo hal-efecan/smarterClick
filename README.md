@@ -1,6 +1,6 @@
 # Smarter Clicks Project
 
-### To demonstrate DOM manipulation and traversal using **vanilla JavaScript**
+To demonstrate DOM manipulation and traversal using **vanilla JavaScript**
 
 ### **Resources used**:  
 
