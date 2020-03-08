@@ -4,7 +4,7 @@ function addCssToStyleTag() {
     // + set attr 
     styleTag.setAttribute('id', 'smc-hover-css')
     // + css Styling
-    styleTag.innerHTML = "smc-path-box {" +
+    styleTag.textContent = "smc-path-box {" +
     "position: fixed;" +
     "bottom: 20px;" +
     "left: 10px;" +
@@ -27,7 +27,7 @@ function addCssToStyleTag() {
 function addPathBoxToBody() {
     // Add pathBoxElement to document body
     const pathBoxElement = document.createElement('smc-path-box')
-    pathBoxElement.innerHTML = `Selector Path:`
+    pathBoxElement.textContent = `Selector Path:`
     document.body.appendChild(pathBoxElement)
 }
 
@@ -49,7 +49,7 @@ function addBorderOnHover() {
 
 function addSelectorPath(path) {
     const clickedElement = document.getElementsByTagName('smc-path-box')
-    clickedElement[0].innerHTML = `Selector Path: ${path}`
+    clickedElement[0].textContent = `Selector Path: ${path}`
 }
 
 function getSelectorPath() {
